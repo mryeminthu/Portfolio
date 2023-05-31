@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  text-decoration: none;
+  list-style-type: none;
+  color: #fff;
+}
+
+.four-menu {
+  display: none;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #3c3a39;
+  padding: 20px;
+}
+
+.mylogo {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.toggle {
+  width: 20px;
+  height: 20px;
+}
+
+.home-page {
+  background-image: url(images/illustration.png);
+  background-repeat: no-repeat;
+  background-position: right 0% bottom -22%;
+  background-color: #1c1a19;
+  padding: 120px 20px;
+}
+
+.home-title {
+  font-family: 'Crete Round', sans-serif;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: 0.37px;
+  color: #ff6b00;
+}
+
+.developer {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  padding-bottom: 10px;
+  color: #fff5e1;
+}
+
+.home-description {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 15.6px;
+  line-height: 24px;
+}
+
+.social-links {
+  display: flex;
+  padding-left: 10px;
+  margin-top: 30px;
+}
+
+.social-img {
+  width: 18px;
+  height: 20px;
+  margin-right: 20px;
+}
