@@ -30,9 +30,9 @@
 
 > ### Key Features <a name="key-features"></a>
 
-- **Created portfolio with HTML and CSS**
+- **Create portfolio with HTML and CSS**
 - **Set up linters**
-- **Used gitHub**
+- **Use gitHub**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- GETTING STARTED -->
