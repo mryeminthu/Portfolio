@@ -20,7 +20,7 @@
 
 # 📖 [Portfolio] <a name="about-project"></a>
 
-> This is my second Microverse Project of creating portfolio. It is essential for future web developers to have a portfolio website.
+> This is my Microverse Project of creating portfolio. It is essential for future web developers to have a portfolio website.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -40,7 +40,7 @@
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Here is my second project as a Micronaut to understand how to build navigation bar and main section.
+> Here is my project as a Micronaut to understand how to build Mobile first website.
 
 ### Setup
 
@@ -51,7 +51,7 @@
 Clone this repository to your desired folder:
 a. Click Code button (shown in green color)
 b. Copy URL.
-c. Please clone it with the following command: git clone git@github.com:myaccount/my-project.git
+c. Please clone it with the following command: git clone <url>
 
 <!-- AUTHORS -->
 
