@@ -415,3 +415,56 @@ textarea{
   background-color:  #DFE1E6;
   margin-top: 90px;
 }
+
+footer{
+  background-color: #ffffff;
+  padding-bottom: 30px;
+}
+.footer-links{
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding: 30px 0 45px 0;
+}
+.footer-link{
+  margin-right: 15px;
+}
+.footer-links li:nth-of-type(2){
+  margin-top: -1px;
+}
+.footer-links li:nth-of-type(3){
+  margin-top: 1px;
+}
+
+to  Everyone
+footer{
+  background-color: #ffffff;
+  padding-bottom: 30px;
+}
+.footer-links{
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding: 30px 0 45px 0;
+}
+.footer-link{
+  margin-right: 15px;
+}
+.footer-links li:nth-of-type(2){
+  margin-top: -1px;
+}
+.footer-links li:nth-of-type(3){
+  margin-top: 1px;
+}
+
+Ye Min Thu 14:26
+.footer-links li:last-child{
+  margin-top: 3px;
+}
+.footer-line{
+  width: 134px;
+  height: 3px;
+  background-color: #0D151E;
+  border-radius: 10px;
+  margin: auto;
+}
