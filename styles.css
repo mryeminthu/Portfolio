@@ -332,3 +332,86 @@ h3 {
   color: #f4f1f0;
   font-weight: 700;
 }
+.form-section{
+  background-color: #ffffff;
+}
+.form-description{
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  color: #172B4D;
+  padding: 60px 22px 30px;
+}
+.contact{
+  width: 90%;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+[type="text"]{
+  width: 100%;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #979493;
+  padding: 15px;
+  border: none;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #DBD8D7;
+}
+
+[type="email"]{
+  width: 100%;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #979493;
+  padding: 15px;
+  border: none;
+  border-bottom: 1px solid #DBD8D7;
+}
+[type="text"]:hover,[type="email"]:hover{
+  border-bottom: 2px solid #0beebdf8;
+}
+textarea:hover{
+  border: 2px solid #0beebdf8;
+}
+textarea{
+  width: 100%;
+  background-color:  #FBF8F7;
+  font-family: 'Inter', sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 15px;
+  padding: 10px;
+  color: #3C3A39;
+  border: none;
+  height: 114px;
+  margin: 20px 0;
+}
+
+.git-btn {
+  width: 45%;
+  height: 48px;
+  padding: 12px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  letter-spacing: 0.03em;
+  background-color: #FF6B00;
+  border: none;
+  margin: auto;
+  cursor: pointer;
+}
+.form-line{
+  height: 1px;
+  background-color:  #DFE1E6;
+  margin-top: 90px;
+}
