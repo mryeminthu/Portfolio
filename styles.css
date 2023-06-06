@@ -213,8 +213,6 @@ nav {
   width: 100%;
   height: 48px;
   display: inline-block;
-
-  /* padding: 12px 101px; */
   background-color: #ff6b00;
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -328,30 +326,33 @@ h3 {
 }
 
 .for-pressed:active {
-  background-color: rgb(0, 255, 42);
+  background-color: #e05304;
   color: #f4f1f0;
   font-weight: 700;
 }
-.form-section{
-  background-color: #ffffff;
+
+.form-section {
+  background-color: #fff;
 }
-.form-description{
+
+.form-description {
   font-family: 'Inter', sans-serif;
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
   text-align: center;
-  color: #172B4D;
+  color: #172b4d;
   padding: 60px 22px 30px;
 }
-.contact{
+
+.contact {
   width: 90%;
   margin: 20px auto;
   display: flex;
   flex-direction: column;
 }
 
-[type="text"]{
+[type="text"] {
   width: 100%;
   font-family: 'Inter', sans-serif;
   font-weight: 400;
@@ -361,10 +362,10 @@ h3 {
   padding: 15px;
   border: none;
   margin-bottom: 15px;
-  border-bottom: 1px solid #DBD8D7;
+  border-bottom: 1px solid #dbd8d7;
 }
 
-[type="email"]{
+[type="email"] {
   width: 100%;
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -374,26 +375,30 @@ h3 {
   color: #979493;
   padding: 15px;
   border: none;
-  border-bottom: 1px solid #DBD8D7;
+  border-bottom: 1px solid #dbd8d7;
 }
-[type="text"]:hover,[type="email"]:hover{
+
+[type="text"]:hover,
+[type="email"]:hover {
   border-bottom: 2px solid #0beebdf8;
 }
-textarea:hover{
-  border: 2px solid #0beebdf8;
-}
-textarea{
+
+textarea {
   width: 100%;
-  background-color:  #FBF8F7;
+  background-color: #fbf8f7;
   font-family: 'Inter', sans-serif;
   font-style: italic;
   font-weight: 400;
   font-size: 15px;
   padding: 10px;
-  color: #3C3A39;
+  color: #3c3a39;
   border: none;
   height: 114px;
   margin: 20px 0;
+}
+
+textarea:hover {
+  border: 2px solid #0beebdf8;
 }
 
 .git-btn {
@@ -405,66 +410,50 @@ textarea{
   font-weight: 700;
   font-size: 17px;
   letter-spacing: 0.03em;
-  background-color: #FF6B00;
+  background-color: #ff6b00;
   border: none;
   margin: auto;
   cursor: pointer;
 }
-.form-line{
+
+.form-line {
   height: 1px;
-  background-color:  #DFE1E6;
+  background-color: #dfe1e6;
   margin-top: 90px;
 }
 
-footer{
-  background-color: #ffffff;
+footer {
+  background-color: #fff;
   padding-bottom: 30px;
 }
-.footer-links{
+
+.footer-links {
   display: flex;
   justify-content: center;
   list-style-type: none;
   padding: 30px 0 45px 0;
 }
-.footer-link{
+
+.footer-link {
   margin-right: 15px;
 }
-.footer-links li:nth-of-type(2){
+
+.footer-links li:nth-of-type(2) {
   margin-top: -1px;
 }
-.footer-links li:nth-of-type(3){
+
+.footer-links li:nth-of-type(3) {
   margin-top: 1px;
 }
 
-to  Everyone
-footer{
-  background-color: #ffffff;
-  padding-bottom: 30px;
-}
-.footer-links{
-  display: flex;
-  justify-content: center;
-  list-style-type: none;
-  padding: 30px 0 45px 0;
-}
-.footer-link{
-  margin-right: 15px;
-}
-.footer-links li:nth-of-type(2){
-  margin-top: -1px;
-}
-.footer-links li:nth-of-type(3){
-  margin-top: 1px;
-}
-
-Ye Min Thu 14:26
-.footer-links li:last-child{
+.footer-links li:last-child {
   margin-top: 3px;
 }
-.footer-line{
+
+.footer-line {
   width: 134px;
   height: 3px;
-  background-color: #0D151E;
+  background-color: #0d151e;
   border-radius: 10px;
   margin: auto;
 }
