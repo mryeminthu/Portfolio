@@ -328,7 +328,7 @@ h3 {
 }
 
 .for-pressed:active {
-  background-color: #e05304;
+  background-color: rgb(0, 255, 42);
   color: #f4f1f0;
   font-weight: 700;
 }
