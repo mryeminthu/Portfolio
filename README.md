@@ -44,14 +44,18 @@
 
 ### Setup
 
-> Install VS code, Node.js and git on your local computer.
-
-### Prerequisites
-
 Clone this repository to your desired folder:
 a. Click Code button (shown in green color)
 b. Copy URL.
 c. Please clone it with the following command: git clone <url>
+
+### Prerequisites
+
+To launch the project, please clone my repository onto your PC.
+
+### Install
+
+> Install VS code, Node.js and git on your local computer.
 
 <!-- AUTHORS -->
 
@@ -69,7 +73,7 @@ c. Please clone it with the following command: git clone <url>
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **More beautiful responsive portfolio website**
+- [ ] **More beautiful responsive portfolio website with Javascript**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
