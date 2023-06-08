@@ -282,7 +282,7 @@ nav {
 
 .language-lists {
   padding: 120px 0 70px 0;
-  margin: 0;
+  margin: auto;
   width: 327px;
 }
 
@@ -864,7 +864,8 @@ footer {
 
   .language {
     font-family: 'Inter', sans-serif;
-    font-size: 2vw;
+    font-size: 22px;
+    font-weight: 400;
     line-height: 43px;
     text-align: left;
     color: #fff;
