@@ -352,6 +352,11 @@ h3 {
   flex-direction: column;
 }
 
+input:hover {
+  padding-left: 30px;
+  transition: 1s ease-in-out;
+}
+
 [type="text"] {
   width: 100%;
   font-family: 'Inter', sans-serif;
