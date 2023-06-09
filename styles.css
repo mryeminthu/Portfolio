@@ -22,6 +22,12 @@ nav {
   font-weight: 700;
   font-size: 18px;
   line-height: 24px;
+  cursor: pointer;
+}
+
+.mylogo:hover {
+  transform: scale(1.2);
+  color: rgb(47, 255, 95);
 }
 
 .toggle {
@@ -174,6 +180,11 @@ nav {
     url(images/art.png);
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.six-box-wrap:hover {
+  transform: scale(1.01);
+  border: 2px solid rgb(3, 37, 158);
 }
 
 .six-title {
@@ -381,6 +392,8 @@ h3 {
 [type="text"]:hover,
 [type="email"]:hover {
   border-bottom: 2px solid #0beebdf8;
+  padding-left: 30px;
+  transition: 1s ease-in-out;
 }
 
 textarea {
@@ -595,6 +608,12 @@ footer {
     width: 55%;
     height: 70vh;
     margin-bottom: 0;
+    cursor: pointer;
+  }
+
+  .recent-work-img:hover {
+    transform: scale(1.01);
+    border: 2px solid rgb(158, 3, 140);
   }
 
   .recent-work-body {
@@ -679,6 +698,7 @@ footer {
   }
 
   .six-box-wrap {
+    cursor: pointer;
     width: 32%;
     height: 47%;
     padding-top: 19vh;
