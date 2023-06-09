@@ -118,6 +118,11 @@ nav {
   margin-bottom: 20px;
 }
 
+.recent-work-img:hover {
+  transform: scale(1.01);
+  border: 2px solid rgb(158, 3, 140);
+}
+
 .multi-post {
   color: #091e42;
 }
@@ -611,11 +616,6 @@ footer {
     cursor: pointer;
   }
 
-  .recent-work-img:hover {
-    transform: scale(1.01);
-    border: 2px solid rgb(158, 3, 140);
-  }
-
   .recent-work-body {
     display: flex;
     margin-bottom: 0;
@@ -752,7 +752,8 @@ footer {
     background-size: cover;
   }
 
-  .six-box-wrap:first-child .professional {
+  .six-box-wrap:first-child .professional,
+  .six-box-wrap:first-child .six-btns {
     display: none;
   }
 
@@ -764,9 +765,7 @@ footer {
     font-size: 1.3vw;
     text-align: center;
     letter-spacing: 0.03em;
-
-    /* margin-top: 33vh; */
-    margin-top: 240px;
+    margin-top: 290px;
   }
 
   .six-box-wrap:nth-of-type(2) {
