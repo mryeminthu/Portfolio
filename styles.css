@@ -118,6 +118,11 @@ nav {
   margin-bottom: 20px;
 }
 
+.recent-work-img:hover {
+  transform: scale(1.01);
+  border: 2px solid rgb(158, 3, 140);
+}
+
 .multi-post {
   color: #091e42;
 }
@@ -611,12 +616,7 @@ footer {
     cursor: pointer;
   }
 
-  .recent-work-img:hover {
-    transform: scale(1.01);
-    border: 2px solid rgb(158, 3, 140);
-  }
-
-  .recent-work-body {
+   .recent-work-body {
     display: flex;
     margin-bottom: 0;
     grid-area: body;
@@ -752,22 +752,19 @@ footer {
     background-size: cover;
   }
 
-  .six-box-wrap:first-child .professional {
+  .six-box-wrap:first-child .professional, .six-box-wrap:first-child .six-btns{
     display: none;
-  }
-
-  .six-box-wrap:first-child .six-project-btn {
+}
+.six-box-wrap:first-child .six-project-btn{
     width: 100%;
     height: 8vh;
-    background-color: #ff6b00;
+    background-color: #FF6B00;
     font-weight: 700;
     font-size: 1.3vw;
     text-align: center;
     letter-spacing: 0.03em;
-
-    /* margin-top: 33vh; */
-    margin-top: 240px;
-  }
+    margin-top: 290px;
+}
 
   .six-box-wrap:nth-of-type(2) {
     background-image: url(images/art2.png);
