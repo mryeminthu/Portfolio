@@ -6,10 +6,11 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+   - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
   - [Setup](#setup)
-- [Prerequisites](#prerequisites)
-- [Install](#install)
+  - [Install](#install)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -36,23 +37,35 @@
 - **Use gitHub**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+
+- [Live Demo Link](https://mryeminthu.github.io/Portfolio/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
 > Here is my project as a Micronaut to understand how to build Mobile first website.
 
-### Setup
-
-> Install VS code, Node.js and git on your local computer.
-
 ### Prerequisites
+
+To launch the project, please clone my repository onto your PC.
+
+### Setup
 
 Clone this repository to your desired folder:
 a. Click Code button (shown in green color)
 b. Copy URL.
 c. Please clone it with the following command: git clone <url>
 
+### Install
+
+> Install VS code, Node.js and git on your local computer.
+  
 <!-- AUTHORS -->
 
 ## 👥 Author <a name="authors"></a>
