@@ -49,7 +49,7 @@
 ## Project presentation <a name="Project presentation"></a>
 
 
-- [Project presentation Link]([https://mryeminthu.github.io/Portfolio/](https://www.loom.com/share/6b89c98aaaf3435691a007175bf01a43?sid=80739bd1-6d8f-40f4-9c89-a09365bb9320)
+- [Project presentation Link] (https://www.loom.com/share/6b89c98aaaf3435691a007175bf01a43?sid=80739bd1-6d8f-40f4-9c89-a09365bb9320)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
