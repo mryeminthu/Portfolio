@@ -12,6 +12,9 @@
   - [Prerequisites](#prerequisites)
   - [Setup](#setup)
   - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -22,7 +25,7 @@
 
 # 📖 [Portfolio] <a name="about-project"></a>
 
-> This is my Microverse Project of creating portfolio. It is essential for future web developers to have a portfolio website.
+ This is my Microverse Project of creating portfolio. It is essential for future web developers to have a portfolio website.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -31,7 +34,7 @@
 - HTML
 - CSS
 
-> ### Key Features <a name="key-features"></a>
+### Key Features <a name="key-features"></a>
 
 - **Create portfolio with HTML and CSS**
 - **Set up linters**
@@ -56,7 +59,7 @@
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Here is my project as a Micronaut to understand how to build Mobile first website.
+ Here is my project as a Micronaut to understand how to build Mobile first website.
 
 ### Prerequisites
 
@@ -71,7 +74,30 @@ c. Please clone it with the following command: git clone <url>
 
 ### Install
 
-> Install VS code, Node.js and git on your local computer.
+ Install VS code, Node.js and git on your local computer.
+
+### Usage
+
+In order to run this project, please clone this repository to your PC and open index.html file.
+
+### Run tests
+
+To trace linter errors in VS code, please use the following commands:
+
+- For HTML: npx hint .
+
+- For CSS: npx stylelint "**/*.{css,scss}"
+
+- For Javascript: npx eslint .
+
+
+### Deployment
+
+You can deploy this project using: gitHub pages
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
   
 <!-- AUTHORS -->
 
