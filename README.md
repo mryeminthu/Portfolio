@@ -44,7 +44,6 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-
 - [Live Demo Link](https://mryeminthu.github.io/Portfolio/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -59,47 +58,43 @@
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
- Here is my project as a Micronaut to understand how to build Mobile first website.
+ - Here is my project as a Micronaut to understand how to build Mobile first website.
 
 ### Prerequisites
 
-To launch the project, please clone my repository onto your PC.
+- To launch the project, please clone my repository onto your PC.
 
 ### Setup
 
-Clone this repository to your desired folder:
+- Clone this repository to your desired folder:
 a. Click Code button (shown in green color)
 b. Copy URL.
 c. Please clone it with the following command: git clone <url>
 
 ### Install
 
- Install VS code, Node.js and git on your local computer.
+ - Install VS code, Node.js and git on your local computer.
 
 ### Usage
 
-In order to run this project, please clone this repository to your PC and open index.html file.
+ - In order to run this project, please clone this repository to your PC and open index.html file.
 
 ### Run tests
 
-To trace linter errors in VS code, please use the following commands:
+  To trace linter errors in VS code, please use the following commands:
 
 - For HTML: npx hint .
-
 - For CSS: npx stylelint "**/*.{css,scss}"
-
 - For Javascript: npx eslint .
-
 
 ### Deployment
 
-You can deploy this project using: gitHub pages
+ - You can deploy this project using: gitHub pages
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-  
-<!-- AUTHORS -->
+  <!-- AUTHORS -->
 
 ## 👥 Author <a name="authors"></a>
 
