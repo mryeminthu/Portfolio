@@ -17,7 +17,7 @@ nav {
 .four-menu {
   width: 100%;
   padding: 0 5%;
-  background-color: #3C3A39;
+  background-color: #3c3a39;
   position: absolute;
   top: 0;
   left: 0;
@@ -31,29 +31,34 @@ nav {
 .four-menu.active {
   display: block;
 }
-.four-menu li{
+
+.four-menu li {
   width: 100%;
-  border-bottom: 1px solid #6F6C6B;
+  border-bottom: 1px solid #6f6c6b;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
-  color:  #FFF5E1;
+  color: #fff5e1;
   font-size: 32px;
   line-height: 44px;
   padding: 10px;
   margin-bottom: 20px;
 }
-.four-menu li:first-child{
+
+.four-menu li:first-child {
   text-align: right;
   border: none;
 }
-.four-menu li:nth-child(4){    
+
+.four-menu li:nth-child(4) {
   margin-bottom: 56vh;
 }
-.four-menu li:last-child{
+
+.four-menu li:last-child {
   display: none;
   border: none;
-}  
+}
+
 .mylogo {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
@@ -513,64 +518,71 @@ footer {
 }
 
 @media screen and (min-width: 768px) {
-  p{
-      font-family: "Inter", sans-serif;
+  p {
+    font-family: "Inter", sans-serif;
   }
-  nav{
+
+  nav {
     width: 100%;
     height: 10vh;
     display: flex;
     justify-content: space-between;
     font-weight: 600;
-    padding-left: 10%;    
+    padding-left: 10%;
     background-color: #3c3a39;
-}
-  .mylogo{
-      font-family: 'Roboto', sans-serif;
-      font-weight: 700;
-      font-size: 20px;
   }
+
+  .mylogo {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+  }
+
   .mail {
     width: 2vw;
     vertical-align: middle;
   }
-  .toggle{
-      display: none;
+
+  .toggle {
+    display: none;
   }
-  
- .four-menu{
-      display: flex;
-      width: 30vw;
-      text-align: center;
-      font-weight: 600;
-      padding: 0;
-      background-color: #3C3A39;
-      box-sizing: border-box;
-      margin-left: 62%;
+
+  .four-menu {
+    display: flex;
+    width: 30vw;
+    text-align: center;
+    font-weight: 600;
+    padding: 0;
+    background-color: #3c3a39;
+    box-sizing: border-box;
+    margin-left: 62%;
   }
-  .four-menu li{
-      font-size: 15px;
-      font-family: 'Inter', sans-serif;
-      border: none;
-      padding: 0 5%;
-      line-height: 10vh;
-      margin: 0; 
+
+  .four-menu li {
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+    border: none;
+    padding: 0 5%;
+    line-height: 10vh;
+    margin: 0;
   }
 
   .social-links li {
     padding: 10px 0;
   }
 
-  .four-menu li:first-child{
+  .four-menu li:first-child {
     display: none;
   }
-  
-  .four-menu li:nth-of-type(4){
-      margin-bottom: 0;
-    }
-  .four-menu li:last-child{
+
+  .four-menu li:nth-of-type(4) {
+    margin-bottom: 0;
+  }
+
+  .four-menu li:last-child {
     display: block;
-  } 
+  }
+
   .home-page {
     width: 100%;
     padding: 140px 0;
