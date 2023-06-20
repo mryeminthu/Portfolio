@@ -7,3 +7,6 @@ const crossBtn = document.getElementsByClassName('cross')[0];
 crossBtn.addEventListener('click', () => {
   fourMenu.classList.remove('active');
 });
+fourMenu.addEventListener('click', () => {
+  fourMenu.classList.remove('active');
+});
