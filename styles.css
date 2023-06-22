@@ -51,7 +51,7 @@ nav {
 }
 
 .four-menu li:nth-child(4) {
-  margin-bottom: 56vh;
+  margin-bottom: 52vh;
 }
 
 .four-menu li:last-child {
@@ -64,6 +64,7 @@ nav {
   font-weight: 700;
   font-size: 18px;
   line-height: 24px;
+  cursor: pointer;
 }
 
 .mylogo:hover {
@@ -208,11 +209,17 @@ nav {
   width: 124px;
   height: 48px;
   padding: 12px;
-  background-color: #ff6b00;
+  cursor: pointer;
+  background-color: white;
   font-family: 'Inter', sans-serif;
   font-weight: 700;
   font-size: 17px;
   border: none;
+  margin-left: -5px;
+}
+
+a .see-project-btn {
+  background-color: #ff6b00;
 }
 
 .six-box-wrap {
@@ -271,7 +278,7 @@ nav {
   width: 100%;
   height: 48px;
   display: inline-block;
-  background-color: #ff6b00;
+  background-color: white;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -280,6 +287,10 @@ nav {
   letter-spacing: 0.03em;
   margin-bottom: 0;
   border: none;
+}
+
+a .six-project-btn {
+  background-color: #ff6b00;
 }
 
 .about-me-section {
@@ -517,6 +528,129 @@ footer {
   margin: auto;
 }
 
+.overlay {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  display: none;
+  backdrop-filter: blur(3px);
+}
+
+.popup-container {
+  width: 90%;
+  margin: 12% 5%;
+  top: 0;
+  z-index: 9999;
+  background: #fff;
+  color: #333;
+  padding: 15px;
+  display: none;
+  cursor: pointer;
+
+  .overlay {
+    display: block;
+  }
+}
+
+.title-plus {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0;
+}
+
+.plus {
+  transform: rotate(45deg);
+  color: #67798e;
+  font-size: 30px;
+  margin-right: 10px;
+}
+
+.popup-title {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 44px;
+  color: #172b4d;
+}
+
+.popup-btns {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  margin-top: 30px;
+  display: flex;
+  margin-left: -40px;
+}
+
+.popup-btn {
+  border: 1px solid #8993a4;
+  padding: 5px 8px;
+  margin: 0 10px 24px 0;
+  background: #fff;
+  color: #091e42;
+}
+
+.popup-image {
+  width: 100%;
+  height: 23vh;
+}
+
+.popup-description {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+
+  /* font-size: 16px; */
+  font-size: 12px;
+  line-height: 24px;
+  color: #344563;
+  padding: 10px 0 0;
+}
+
+.popup-description2 {
+  display: none;
+  margin-bottom: 0;
+}
+
+.live-source {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 24px;
+  background: #ff6b00;
+
+  /* padding: 10px 5px; */
+  letter-spacing: 0.03em;
+  color: #fff;
+  border: none;
+  margin: 0;
+}
+
+.see-live {
+  width: 43%;
+  height: 40px;
+  cursor: pointer;
+}
+
+.see-source {
+  width: 51%;
+  height: 40px;
+  cursor: pointer;
+}
+
+.ellipse img {
+  vertical-align: middle;
+  margin-left: 10px;
+}
+
+.popgit img {
+  vertical-align: middle;
+  margin-left: 10px;
+}
+
 @media screen and (min-width: 768px) {
   p {
     font-family: "Inter", sans-serif;
@@ -724,12 +858,18 @@ footer {
   .see-project-btn {
     width: 9vw;
     height: 7vh;
-    background: #f55800;
+    cursor: pointer;
+    background: white;
     font-weight: 700;
     font-size: 1.1vw;
     text-align: center;
     letter-spacing: 0.03em;
     border: none;
+    margin-left: -5px;
+  }
+
+  a .see-project-btn {
+    background: #f55800;
   }
 
   .six-wrap {
@@ -1034,5 +1174,128 @@ footer {
 
   .footer-line {
     display: none;
+  }
+
+  .popup {
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+  }
+
+  .popup-container {
+    width: 80%;
+    margin: 6% 10%;
+    background: #fff;
+    color: #333;
+    padding: 20px;
+  }
+
+  .title-plus {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .plus {
+    transform: rotate(45deg);
+    color: #67798e;
+    font-size: 30px;
+    margin-right: 10px;
+  }
+
+  .popup-title {
+    font-family: "Crete Round", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    color: #172b4d;
+    margin-bottom: 0;
+  }
+
+  .popup-btns {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    margin: 0 0 10px -40px;
+    display: flex;
+    justify-content: left;
+  }
+
+  .popup-btn {
+    border: 1px solid #8993a4;
+    padding: 6px 8px;
+    margin-right: 10px;
+    background: #fff;
+    color: #091e42;
+  }
+
+  .displayPC {
+    width: 100%;
+    display: flex;
+  }
+
+  .popup-image {
+    width: 55%;
+    height: 55vh;
+  }
+
+  .pdes {
+    width: 45%;
+    height: 55vh;
+    padding-left: 10px;
+  }
+
+  .popup-description {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 1.1vw;
+    line-height: 4vh;
+    color: #344563;
+    padding: 0 10px;
+  }
+
+  .popup-description2 {
+    display: block;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 1.1vw;
+    line-height: 4vh;
+    color: #344563;
+    padding: 0 10px;
+  }
+
+  .see-live {
+    width: 28%;
+    height: 45px;
+    cursor: pointer;
+  }
+
+  .see-source {
+    width: 35%;
+    height: 45px;
+    cursor: pointer;
+  }
+
+  .live-source {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 1.1vw;
+    background: #ff6b00;
+    letter-spacing: 0.03em;
+    color: #fff;
+    border: none;
+    margin: 15% 0 0 2%;
+  }
+
+  .ellipse img {
+    width: 15%;
+    margin-left: 10px;
+    vertical-align: middle;
+  }
+
+  .popgit img {
+    width: 15%;
+    margin-left: 10px;
+    vertical-align: middle;
   }
 }

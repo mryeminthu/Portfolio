@@ -97,11 +97,19 @@
             <li class="multi-btn">Bootstrap</li>
             <li class="multi-btn">Ruby</li>
           </ul>
-          <button class="see-project-btn for-hover for-pressed" type="button">See Project</button>
+          <a href="#" class="see-project-btn">
+            <button
+              class="see-project-btn for-hover for-pressed click-popup"
+              data-position="0"
+              type="button"
+            >
+              See Project
+            </button>
+          </a>
         </div>
       </div>
       <div class="six-wrap">
-        <div class="six-box-wrap">
+        <div class="six-box-wrap click-popup" data-position="1">
           <div class="professional">
             <h3 class="six-title">Profesional Art Printing Data</h3>
             <p class="six-description">
@@ -114,9 +122,15 @@
             <li class="six-btn">Bootstrap</li>
             <li class="six-btn">Ruby</li>
           </ul>
-          <button class="six-project-btn for-hover for-pressed" type="button">See Project</button>
+          <button
+            class="six-project-btn for-hover for-pressed"
+            type="button"
+            data-position="1"
+          >
+            See Project
+          </button>
         </div>
-        <div class="six-box-wrap">
+        <div class="six-box-wrap click-popup" data-position="2">
           <div class="professional">
             <h3 class="six-title">Profesional Art Printing Data</h3>
             <p class="six-description">
@@ -129,9 +143,15 @@
             <li class="six-btn">Bootstrap</li>
             <li class="six-btn">Ruby</li>
           </ul>
-          <button class="six-project-btn for-hover for-pressed" type="button">See Project</button>
+          <button
+            class="six-project-btn for-hover for-pressed"
+            type="button"
+            data-position="2"
+          >
+            See Project
+          </button>
         </div>
-        <div class="six-box-wrap">
+        <div class="six-box-wrap click-popup" data-position="3">
           <div class="professional">
             <h3 class="six-title">Profesional Art Printing Data</h3>
             <p class="six-description">
@@ -144,9 +164,15 @@
             <li class="six-btn">Bootstrap</li>
             <li class="six-btn">Ruby</li>
           </ul>
-          <button class="six-project-btn for-hover for-pressed" type="button">See Project</button>
+          <button
+            class="six-project-btn for-hover for-pressed"
+            type="button"
+            data-position="3"
+          >
+            See Project
+          </button>
         </div>
-        <div class="six-box-wrap">
+        <div class="six-box-wrap click-popup" data-position="4">
           <div class="professional">
             <h3 class="six-title">Profesional Art Printing Data</h3>
             <p class="six-description">
@@ -159,9 +185,15 @@
             <li class="six-btn">Bootstrap</li>
             <li class="six-btn">Ruby</li>
           </ul>
-          <button class="six-project-btn for-hover for-pressed" type="button">See Project</button>
+          <button
+            class="six-project-btn for-hover for-pressed"
+            type="button"
+            data-position="4"
+          >
+            See Project
+          </button>
         </div>
-        <div class="six-box-wrap">
+        <div class="six-box-wrap click-popup" data-position="5">
           <div class="professional">
             <h3 class="six-title">Profesional Art Printing Data</h3>
             <p class="six-description">
@@ -174,9 +206,15 @@
             <li class="six-btn">Bootstrap</li>
             <li class="six-btn">Ruby</li>
           </ul>
-          <button class="six-project-btn for-hover for-pressed" type="button">See Project</button>
+          <button
+            class="six-project-btn for-hover for-pressed"
+            type="button"
+            data-position="5"
+          >
+            See Project
+          </button>
         </div>
-        <div class="six-box-wrap">
+        <div class="six-box-wrap click-popup" data-position="6">
           <div class="professional">
             <h3 class="six-title">Profesional Art Printing Data</h3>
             <p class="six-description">
@@ -189,7 +227,13 @@
             <li class="six-btn">Bootstrap</li>
             <li class="six-btn">Ruby</li>
           </ul>
-          <button class="six-project-btn for-hover for-pressed" type="button">See Project</button>
+          <button
+            class="six-project-btn for-hover for-pressed"
+            type="button"
+            data-position="6"
+          >
+            See Project
+          </button>
         </div>
       </div>
     </section>
@@ -200,7 +244,9 @@
         or website Look through some of my work and experience! If you like what
         you see and have a project you need coded, don’t hesitate to contact me.
       </p>
-      <button class="my-resume-btn for-hover for-pressed" type="button">Get My Resume</button>
+      <button class="my-resume-btn for-hover for-pressed" type="button">
+        Get My Resume
+      </button>
     </article>
     <section class="language-section">
       <hr class="about-me-line" />
@@ -308,6 +354,51 @@
       </ul>
       <hr class="footer-line" />
     </footer>
+    <section class="popup-container">
+      <div class="overlay"></div>
+      <div class="popup-contain">
+        <div class="title-plus">
+          <h1 class="popup-title"></h1>
+          <span class="plus">+</span>
+        </div>
+        <ul class="popup-btns">
+          <li class="popup-btn"></li>
+          <li class="popup-btn"></li>
+          <li class="popup-btn"></li>
+          <li class="popup-btn"></li>
+        </ul>
+        <div class="displayPC">
+          <img class="popup-image" src="" />
+          <div class="pdes">
+            <p class="popup-description"></p>
+            <br /><br />
+            <p class="popup-description2"></p>
+            <a href="#" class="see-live">
+              <button
+                class="see-live live-source for-hover for-pressed"
+                type="button"
+              >
+                See live
+                <span class="ellipse"
+                  ><img src="images/ellipse.png" alt="Ellipse"
+                /></span>
+              </button>
+            </a>
+            <a href="#" class="see-source">
+              <button
+                class="see-source live-source for-hover for-pressed"
+                type="button"
+              >
+                See source
+                <span class="popgit">
+                  <img src="images/popgit.png" alt="github" />
+                </span>
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
     <script src="app.js"></script>
   </body>
 </html>
