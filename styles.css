@@ -537,6 +537,7 @@ footer {
   color: #333;
   padding: 15px;
   display: none;
+  cursor: pointer;
 
   .overlay {
     display: block;
@@ -554,7 +555,6 @@ footer {
   color: #67798e;
   font-size: 30px;
   margin-right: 10px;
-  cursor: pointer;
 }
 
 .popup-title {
@@ -610,6 +610,8 @@ footer {
   font-size: 15px;
   line-height: 24px;
   background: #ff6b00;
+
+  /* padding: 10px 5px; */
   letter-spacing: 0.03em;
   color: #fff;
   border: none;
@@ -1196,8 +1198,6 @@ footer {
     font-weight: 500;
     font-size: 18px;
     line-height: 20px;
-
-    /* color: #3C3A39; */
     margin: 0 0 10px -40px;
     display: flex;
     justify-content: left;
@@ -1229,8 +1229,6 @@ footer {
   .popup-description {
     font-family: 'Inter', sans-serif;
     font-weight: 400;
-
-    /* font-size: 16px; */
     font-size: 1.1vw;
     line-height: 4vh;
     color: #344563;
