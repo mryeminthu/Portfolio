@@ -9,7 +9,7 @@ crossBtn.addEventListener('click', () => {
   fourMenu.classList.remove('active');
 });
 fourMenu.addEventListener('click', () => {
-  fourMenu.classList.remove('active');
+  fourMinu.classList.remove('active');
 });
 
 // Window popup
@@ -24,7 +24,7 @@ const cards = [
     seeSource: 'https://github.com/mryeminthu/Portfolio',
   },
   {
-    name: 'Multi-Post Stories',
+    name: 'Profesional Art Printing Data',
     description: "A daily selection of privately personalized reads; no accounts or sign-ups required. This has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
     description2: "A daily selection of privately personalized reads; no accounts or sign-ups required. This has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
     image: 'images/art.png',
@@ -33,7 +33,7 @@ const cards = [
     seeSource: 'https://github.com/mryeminthu/Portfolio',
   },
   {
-    name: 'Multi-Post Stories',
+    name: 'Data Dashboard Healthcare',
     description: "A daily selection of privately personalized reads; no accounts or sign-ups required. This has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
     description2: "A daily selection of privately personalized reads; no accounts or sign-ups required. This has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
     image: 'images/art2.png',
@@ -42,7 +42,7 @@ const cards = [
     seeSource: 'https://github.com/mryeminthu/Portfolio',
   },
   {
-    name: 'Multi-Post Stories',
+    name: 'Website Portfolio',
     description: "A daily selection of privately personalized reads; no accounts or sign-ups required. This has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
     description2: "A daily selection of privately personalized reads; no accounts or sign-ups required. This has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
     image: 'images/art1.png',
@@ -51,7 +51,7 @@ const cards = [
     seeSource: 'https://github.com/mryeminthu/Portfolio',
   },
   {
-    name: 'Multi-Post Stories',
+    name: 'Profesional Art Printing Data More',
     description: "A daily selection of privately personalized reads; no accounts or sign-ups required. This has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
     description2: "A daily selection of privately personalized reads; no accounts or sign-ups required. This has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
     image: 'images/art3.png',
@@ -60,7 +60,7 @@ const cards = [
     seeSource: 'https://github.com/mryeminthu/Portfolio',
   },
   {
-    name: 'Multi-Post Stories',
+    name: 'Data Dashboard Healthcare',
     description: "A daily selection of privately personalized reads; no accounts or sign-ups required. This has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
     description2: "A daily selection of privately personalized reads; no accounts or sign-ups required. This has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
     image: 'images/art2.png',
@@ -69,7 +69,7 @@ const cards = [
     seeSource: 'https://github.com/mryeminthu/Portfolio',
   },
   {
-    name: 'Multi-Post Stories',
+    name: 'Website Portfolio',
     description: "A daily selection of privately personalized reads; no accounts or sign-ups required. This has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
     description2: "A daily selection of privately personalized reads; no accounts or sign-ups required. This has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
     image: 'images/art1.png',
