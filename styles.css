@@ -213,6 +213,7 @@ nav {
   font-weight: 700;
   font-size: 17px;
   border: none;
+  cursor: pointer;
 }
 
 .six-box-wrap {
@@ -280,6 +281,7 @@ nav {
   letter-spacing: 0.03em;
   margin-bottom: 0;
   border: none;
+  cursor: pointer;
 }
 
 .about-me-section {
@@ -520,6 +522,8 @@ footer {
 .overlay {
   width: 100vw;
   height: 100vh;
+
+  /* background-color: rgba(0,0,0,0.7); */
   position: fixed;
   top: 0;
   left: 0;
@@ -536,8 +540,6 @@ footer {
   background: #fff;
   color: #333;
   padding: 15px;
-  display: none;
-  cursor: pointer;
 
   .overlay {
     display: block;
@@ -555,6 +557,7 @@ footer {
   color: #67798e;
   font-size: 30px;
   margin-right: 10px;
+  cursor: pointer;
 }
 
 .popup-title {
@@ -621,12 +624,14 @@ footer {
 .see-live {
   width: 43%;
   height: 40px;
+  cursor: pointer;
 }
 
 .see-source {
   width: 51%;
   height: 40px;
   margin-left: 10px;
+  cursor: pointer;
 }
 
 .ellipse img {
@@ -1160,6 +1165,8 @@ footer {
 
   .popup {
     width: 100%;
+
+    /* height: 631px; */
     margin: auto;
     padding: 20px;
   }
@@ -1198,6 +1205,8 @@ footer {
     font-weight: 500;
     font-size: 18px;
     line-height: 20px;
+
+    /* color: #3C3A39; */
     margin: 0 0 10px -40px;
     display: flex;
     justify-content: left;
@@ -1223,12 +1232,15 @@ footer {
 
   .pdes {
     width: 45%;
+    height: 55vh;
     padding-left: 10px;
   }
 
   .popup-description {
     font-family: 'Inter', sans-serif;
     font-weight: 400;
+
+    /* font-size: 16px; */
     font-size: 1.1vw;
     line-height: 4vh;
     color: #344563;
@@ -1242,17 +1254,21 @@ footer {
     font-size: 1.1vw;
     line-height: 4vh;
     color: #344563;
+
+    /* padding: 0px 10px 70px; */
     padding: 0 10px;
   }
 
   .see-live {
     width: 26%;
     height: 45px;
+    cursor: pointer;
   }
 
   .see-source {
     width: 32%;
     height: 45px;
+    cursor: pointer;
   }
 
   .live-source {
@@ -1264,7 +1280,7 @@ footer {
     letter-spacing: 0.03em;
     color: #fff;
     border: none;
-    margin: 15% 0 0% 2%;
+    margin: 15% 0 0 2%;
   }
 
   .ellipse img {
