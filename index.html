@@ -285,12 +285,12 @@
         </ul>
       </div>
     </section>
-    <section id="Contact" class="form-section">
+   <section id="Contact" class="form-section">
       <p class="form-description">
         I'm always interested in hearing about new projects, so if you'd like to
         chat please get in touch.
       </p>
-      <form
+      <form id='form'
         class="contact"
         action="https://formspree.io/f/mayzgjgj"
         method="POST"
@@ -302,7 +302,7 @@
           placeholder="Full Name"
           required
         />
-        <input name="email" type="email" placeholder="Email address" required />
+        <input id="email" name="email" type="email" placeholder="Email address" required />
         <textarea
           name="message"
           maxlength="500"
@@ -312,6 +312,8 @@
         <button type="submit" class="git-btn for-hover for-pressed">
           Get in touch
         </button>
+        <p id="err-msg" class="hidden-msg">Email must be in lowercase.</p>
+        <p id='sent-msg' class='sent-msg'>Your message has been sent!</p>
       </form>
     </section>
     <hr class="form-line" />
