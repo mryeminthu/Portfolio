@@ -9,7 +9,7 @@ crossBtn.addEventListener('click', () => {
   fourMenu.classList.remove('active');
 });
 fourMenu.addEventListener('click', () => {
-  fourMinu.classList.remove('active');
+  fourMenu.classList.remove('active');
 });
 
 // Window popup
