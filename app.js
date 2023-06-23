@@ -121,3 +121,27 @@ for (let i = 0; i < clickPopups.length; i += 1) {
     window.scrollTo(0, 0);
   });
 }
+
+// Validate
+window.addEventListener('DOMContentLoaded', () => {
+  const form = document.getElementById('form');
+  const emailInput = document.getElementById('email');
+  const errMsg = document.getElementById('err-msg');
+  const sentMsg = document.getElementById('sent-msg');
+  form.addEventListener('submit', (event) => {
+    event.preventDefault();
+    const email = emailInput.value;
+    const isUpperCase = email.toLowerCase() !== email;
+    if (isUpperCase) {
+      errMsg.classList.remove('hidden-msg');
+      sentMsg.classList.add('sent-msg');
+      emailInput.style.border = '3px solid red';
+    } else {
+      errMsg.classList.add('hidden-msg');
+      sentMsg.classList.remove('sent-msg');
+      emailInput.style.border = '3px solid green';
+      form.submit();
+      form.reset();
+    }
+  });
+});

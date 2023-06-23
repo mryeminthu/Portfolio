@@ -486,6 +486,30 @@ textarea:hover {
   cursor: pointer;
 }
 
+.hidden-msg {
+  display: none;
+}
+
+#err-msg {
+  color: red;
+  font-weight: bold;
+  font-size: 25px;
+  margin: 15px auto;
+  font-family: 'Inter', sans-serif;
+}
+
+.sent-msg {
+  display: none;
+}
+
+#sent-msg {
+  color: green;
+  font-weight: bold;
+  font-size: 25px;
+  margin: 15px auto;
+  font-family: 'Inter', sans-serif;
+}
+
 .form-line {
   height: 1px;
   background-color: #dfe1e6;
@@ -621,8 +645,6 @@ footer {
   font-size: 15px;
   line-height: 24px;
   background: #ff6b00;
-
-  /* padding: 10px 5px; */
   letter-spacing: 0.03em;
   color: #fff;
   border: none;
@@ -1135,6 +1157,16 @@ footer {
     background-color: #ff6b00;
     border: none;
     margin-left: 0;
+  }
+
+  #err-msg {
+    margin: 15px 0;
+    font-size: 30px;
+  }
+
+  #sent-msg {
+    margin: 15px 0;
+    font-size: 30px;
   }
 
   .form-line {
