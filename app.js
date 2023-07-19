@@ -20,8 +20,8 @@ const cards = [
     description2: "A daily selection of privately personalized reads; no accounts or sign-ups required. This has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
     image: './images/yoga.png',
     languages: ['CSS', 'HTML', 'Bootstrap', 'Ruby'],
-    seeLive: 'https://mryeminthu.github.io/Portfolio/',
-    seeSource: 'https://github.com/mryeminthu/Portfolio',
+    seeLive: 'https://mryeminthu.github.io/To-Do-list/',
+    seeSource: 'https://github.com/mryeminthu/To-Do-list',
   },
   {
     name: 'Profesional Art Printing Data',
