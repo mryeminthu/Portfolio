@@ -15,12 +15,12 @@ fourMenu.addEventListener('click', () => {
 // Window popup
 const cards = [
   {
-    name: 'Multi-Post Stories',
-    description: "A daily selection of privately personalized reads; no accounts or sign-ups required. This has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
-    description2: "A daily selection of privately personalized reads; no accounts or sign-ups required. This has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
-    image: './images/yoga.png',
+    name: 'To Do List App',
+    description: "This 'To-do list' app has been thoughtfully designed to cater to your needs.",
+    description2: 'It allows you to effortlessly add your daily tasks, conveniently edit them, and easily delete those tasks that you have completed.',
+    image: './images/todolist.png',
     languages: ['CSS', 'HTML', 'Bootstrap', 'Ruby'],
-    seeLive: 'https://mryeminthu.github.io/To-Do-list/',
+    seeLive: 'https://mryeminthu.github.io/To-Do-list/dist/',
     seeSource: 'https://github.com/mryeminthu/To-Do-list',
   },
   {
