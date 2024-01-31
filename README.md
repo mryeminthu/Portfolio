@@ -24,7 +24,7 @@
 
 # 📖 [Portfolio] <a name="about-project"></a>
 
- Please explore my portfolio to see  how I make cool websites using HTML, CSS, and JavaScript. I turn tricky ideas into simple and awesome designs.
+ This is my first simple portfolio website created in Microverse Module 1. Please explore my portfolio to see how I create cool websites using HTML, CSS, and JavaScript. I turn tricky ideas into simple and awesome designs.
 
 ## 🛠 Built With <a name="built-with"></a>
 
