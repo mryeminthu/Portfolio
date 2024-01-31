@@ -24,7 +24,7 @@
 
 # 📖 [Portfolio] <a name="about-project"></a>
 
- This is my Microverse Project of creating portfolio. It is essential for future web developers to have a portfolio website.
+ Please explore my portfolio to see  how I make cool websites using HTML, CSS, and JavaScript. I turn tricky ideas into simple and awesome designs.
 
 ## 🛠 Built With <a name="built-with"></a>
 
